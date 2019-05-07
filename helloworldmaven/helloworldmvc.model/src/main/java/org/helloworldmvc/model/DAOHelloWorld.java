@@ -41,9 +41,10 @@ public class DAOHelloWorld {
 		
 	}
 	
-	public String getHelloMessage()
+	public void getHelloMessage() throws IOException
 	{
-		return helloWorldMessage;
+		
+		readFile();
 	}
 	public void setHelloMessage(String HelloWorldMessage)
 	{
